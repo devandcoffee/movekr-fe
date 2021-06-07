@@ -6,7 +6,7 @@ import { Button, Center, Container, Menu, MenuButton, MenuItem, MenuList, useDis
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
 
 import { Card } from '../components/Card';
-import { NewCardModal } from '../components/NewCardNew/NewCardModal';
+import { NewCardModal } from '../components/NewCard/NewCardModal';
 import { NewProject } from '../components/NewProject/NewProjectModal';
 import { columns } from '../data/columns';
 import { getDragResult } from '../helpers/getDragResult';
